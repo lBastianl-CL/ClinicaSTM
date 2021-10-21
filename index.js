@@ -29,8 +29,8 @@ app.post("/api/form", (req, res) => {
       host: "smtp.gmail.com",
       port: 587,
       auth: {
-        user: "clinicastmv1@gmail.com", //El email del servicio SMTP que va a utilizar (en este caso Gmail)
-        pass: "clinicastm123" // La contraseña de dicho SMTP
+        user: "ingresecorrreoclinica", //El email del servicio SMTP que va a utilizar (en este caso Gmail)
+        pass: "contraseñaclinica" // La contraseña de dicho SMTP
       }
     });
 
