@@ -35,9 +35,9 @@ app.post("/api/form", (req, res) => {
     });
 
     let mailOptions = {
-      from: "clinicastmv1@gmail.com", // Quien manda el email
+      from: "ingresecorrreoclinica", // Quien manda el email
       to: req.body.correo, // El email de destino
-      replyTo: "clinicastmv1@gmail.com",
+      replyTo: "ingresecorrreoclinica",
       subject: "Reserva de Hora Clinica STM", // El asunto del email
       html: htmlEmail // La parte HTML del email
     };
